@@ -32,8 +32,9 @@ Please refer to [CoTracker](https://github.com/facebookresearch/co-tracker) for 
     │   │   │   ├── ***.MOV
     │   │   │   └── ...
   ```
-- If you would like to track in a region of interest (ROI), please set ```--roi_cetner [x, y]```, where ```[x,y]``` is the center of the ROI.
+- If you would like to track in a region of interest (ROI), please set ```--roi_center [x, y]```, where ```[x,y]``` is the center of the ROI.
   ```
   python demo_gm.py --grid_size 30
   ```
   Please note the default parameters in the ```demo_gm.py``` file if you are interested.
+
